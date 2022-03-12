@@ -96,10 +96,7 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) {
-  printf("EL VALOR DE I ES %i \n",i);
-  v->datos[i]=valor;
-    printf("...................CORTE 1.......\n");
-
+  v[i]->datos[i]=valor;
 }
 
 /*

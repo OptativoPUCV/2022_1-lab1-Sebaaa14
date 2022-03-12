@@ -919,3 +919,13 @@ Sat Mar 12 05:47:17 UTC 2022:
  tests:  4|3
 total_score: 40/70
 a1a9f7f
+Sat Mar 12 05:47:37 UTC 2022: 
+ exercises.c | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:7: error: invalid type argument of ‘->’ (have ‘Vector {aka struct <anonymous>}’)
+   v[i]->datos[i]=valor;
+       ^~
+Compilation failed
+bf69805
