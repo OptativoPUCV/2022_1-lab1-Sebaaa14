@@ -268,3 +268,18 @@ exercises.c:66:12: error: ‘p’ is a pointer; did you mean to use ‘->’?
             ->
 Compilation failed
 da53d9f
+Sat Mar 12 04:50:25 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearPersona’:
+exercises.c:66:11: error: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [-Werror=int-conversion]
+   strcpy (p->edad,"38");
+           ^
+In file included from test.c:3:0:
+/usr/include/string.h:121:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+ extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+              ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+0c4914c
