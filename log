@@ -438,3 +438,14 @@ exercises.c:64:12: error: assignment to expression with array type
             ^
 Compilation failed
 dd560b1
+Sat Mar 12 05:04:22 UTC 2022: 
+ exercises.c | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearPersona’:
+exercises.c:66:12: error: ‘p’ is a pointer; did you mean to use ‘->’?
+   strcpy (p.edad,"38");
+            ^
+            ->
+Compilation failed
+578137a
