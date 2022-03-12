@@ -1478,3 +1478,14 @@ exercises.c:99:3: error: ‘arreglo’ undeclared (first use in this function)
 exercises.c:99:3: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 3474dd6
+Sat Mar 12 15:04:59 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:4: error: ‘arreglo’ undeclared (first use in this function)
+   *arreglo=valor;
+    ^~~~~~~
+exercises.c:99:4: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+e0df548
