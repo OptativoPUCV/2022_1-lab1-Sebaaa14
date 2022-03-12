@@ -1205,3 +1205,13 @@ exercises.c:99:5: error: ‘v’ is a pointer; did you mean to use ‘->’?
      ->
 Compilation failed
 f81e048
+Sat Mar 12 14:52:52 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:15: error: lvalue required as left operand of assignment
+   &v->datos[i]=valor;
+               ^
+Compilation failed
+05830f2
