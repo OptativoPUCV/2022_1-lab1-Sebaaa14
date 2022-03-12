@@ -1379,3 +1379,14 @@ Sat Mar 12 14:57:42 UTC 2022:
  tests:  4|3
 total_score: 40/70
 f98e35c
+Sat Mar 12 14:58:35 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:88:14: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+     *v->datos=arreglo;
+              ^
+cc1: all warnings being treated as errors
+Compilation failed
+af17464
