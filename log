@@ -325,3 +325,26 @@ In file included from test.c:3:0:
 cc1: all warnings being treated as errors
 Compilation failed
 1bf6912
+Sat Mar 12 04:52:58 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearPersona’:
+exercises.c:66:11: error: passing argument 1 of ‘strcpy’ makes pointer from integer without a cast [-Werror=int-conversion]
+   strcpy (p->edad,38);
+           ^
+In file included from test.c:3:0:
+/usr/include/string.h:121:14: note: expected ‘char * restrict’ but argument is of type ‘int’
+ extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+              ^~~~~~
+In file included from test.c:5:0:
+exercises.c:66:19: error: passing argument 2 of ‘strcpy’ makes pointer from integer without a cast [-Werror=int-conversion]
+   strcpy (p->edad,38);
+                   ^~
+In file included from test.c:3:0:
+/usr/include/string.h:121:14: note: expected ‘const char * restrict’ but argument is of type ‘int’
+ extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+              ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+26e72ba
