@@ -142,3 +142,20 @@ Sat Mar 12 04:23:26 UTC 2022:
  tests:  1|6
 total_score: 10/70
 b7305d1
+Sat Mar 12 04:23:55 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:39:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+   for(int i <n; i==0; i--){
+             ^
+exercises.c:39:17: error: ‘i’ undeclared (first use in this function)
+   for(int i <n; i==0; i--){
+                 ^
+exercises.c:39:17: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:39:21: error: expected ‘)’ before ‘;’ token
+   for(int i <n; i==0; i--){
+                     ^
+Compilation failed
+5d96a8f
