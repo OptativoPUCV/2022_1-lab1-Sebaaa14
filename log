@@ -1018,3 +1018,13 @@ exercises.c:99:8: error: ‘datos’ undeclared (first use in this function); di
 exercises.c:99:8: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 0651f1f
+Sat Mar 12 05:55:47 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:7: error: invalid type argument of ‘->’ (have ‘Vector {aka struct <anonymous>}’)
+   v[i]->datos=valor;
+       ^~
+Compilation failed
+cfe7fc6
