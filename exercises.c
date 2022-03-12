@@ -99,6 +99,7 @@ void asignarValor(Vector * v, int i, int valor) {
   for (int j=0 ; j<i ; j++){
     v->datos[j]=valor;
   }
+  return v;
 }
 
 /*
