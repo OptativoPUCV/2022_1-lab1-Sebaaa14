@@ -1539,3 +1539,20 @@ Sat Mar 12 17:28:22 UTC 2022:
  tests:  4|3
 total_score: 40/70
 e9c260f
+Sat Mar 12 17:32:32 UTC 2022: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:11: error: ‘v’ redeclared as different kind of symbol
+    Vector v[5];
+           ^
+exercises.c:98:28: note: previous definition of ‘v’ was here
+ void asignarValor(Vector * v, int i, int valor) {
+                            ^
+exercises.c:99:11: error: unused variable ‘v’ [-Werror=unused-variable]
+    Vector v[5];
+           ^
+cc1: all warnings being treated as errors
+Compilation failed
+f69f220
