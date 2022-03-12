@@ -1997,3 +1997,17 @@ exercises.c:114:1: error: control reaches end of non-void function [-Werror=retu
 cc1: all warnings being treated as errors
 Compilation failed
 5a0c82c
+Sat Mar 12 20:50:38 UTC 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘obtenerValor’:
+exercises.c:113:11: error: incompatible types when returning type ‘Vector {aka struct <anonymous>}’ but ‘int’ was expected
+   return v[i];
+          ~^~~
+exercises.c:114:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+Compilation failed
+dad131e
