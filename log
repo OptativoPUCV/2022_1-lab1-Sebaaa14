@@ -891,3 +891,9 @@ exercises.c:99:10: error: too many arguments for format [-Werror=format-extra-ar
 cc1: all warnings being treated as errors
 Compilation failed
 bf42ef9
+Sat Mar 12 05:45:58 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|3
+total_score: 40/70
+552ba87
