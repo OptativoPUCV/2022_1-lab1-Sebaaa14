@@ -98,7 +98,7 @@ void asignarValor(Vector * v, int i, int valor) {
   //v->datos = (int *)calloc(3, sizeof(int));
   //v->capacidad = 3;
   v->datos[i]=valor;
-  printf("DATOS ES %d XDD\n ",v->datos[i]);
+  //printf("DATOS ES %d XDD\n ",v->datos[i]);
 
 }
 
