@@ -1659,3 +1659,17 @@ exercises.c:100:14: error: assignment makes integer from pointer without a cast 
 cc1: all warnings being treated as errors
 Compilation failed
 54648f6
+Sat Mar 12 17:46:31 UTC 2022: 
+ exercises.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:100:19: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+   Arreglo[i].datos=valor;
+                   ^
+exercises.c:102:8: error: ‘Vector {aka struct <anonymous>}’ has no member named ‘ruedas’
+   (P+i)->ruedas =valor;
+        ^~
+cc1: all warnings being treated as errors
+Compilation failed
+03a4f32
