@@ -714,3 +714,17 @@ exercises.c:98:6: note: declared here
 cc1: all warnings being treated as errors
 Compilation failed
 135279f
+Sat Mar 12 05:32:33 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:102:10: error: ‘return’ with a value, in function returning void [-Werror]
+   return *v;
+          ^~
+exercises.c:98:6: note: declared here
+ void asignarValor(Vector * v, int i, int valor) {
+      ^~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+b72d40f
