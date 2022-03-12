@@ -1904,3 +1904,17 @@ exercises.c:96:28: note: previous definition of ‘v’ was here
                             ^
 Compilation failed
 6cbd2e1
+Sat Mar 12 20:44:54 UTC 2022: 
+ exercises.c | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:102:10: error: ‘return’ with a value, in function returning void [-Werror]
+   return v1;
+          ^~
+exercises.c:96:6: note: declared here
+ void asignarValor(Vector * v, int i, int valor) {
+      ^~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+275a280
