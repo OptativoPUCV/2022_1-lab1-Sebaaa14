@@ -1595,3 +1595,14 @@ exercises.c:99:11: error: unused variable ‘h’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 bd914db
+Sat Mar 12 17:39:29 UTC 2022: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:11: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+   v->datos=valor;
+           ^
+cc1: all warnings being treated as errors
+Compilation failed
+98bf84e
