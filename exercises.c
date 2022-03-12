@@ -94,7 +94,6 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) { 
-  //Vector *v = (Vector* )malloc (sizeof(Vector));
  
   v->datos = (int *)calloc(3, sizeof(int));
   v->capacidad = 3;
@@ -109,8 +108,7 @@ Programe la función int obtenerValor(Vector * v, int i),
 la cual retorna el valor en la posición i del vector v.
 */
 int obtenerValor(Vector * v, int i) {
-    Vector *juan = (Vector*) malloc (sizeof(Vector));
-  return juan->datos[i];
+
 }
 
 /*
