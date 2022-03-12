@@ -21,3 +21,20 @@ exercises.c:20:5: error: ‘sumaN’ defined but not used [-Werror=unused-functi
 cc1: all warnings being treated as errors
 Compilation failed
 2a82c6e
+Sat Mar 12 04:08:40 UTC 2022: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘suma’:
+exercises.c:15:6: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+     c= a+b;
+      ^
+exercises.c:16:10: error: ‘return’ with a value, in function returning void [-Werror]
+   return c;
+          ^
+exercises.c:14:6: note: declared here
+ void suma(int a, int b, int * c) {
+      ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+97d44c1
