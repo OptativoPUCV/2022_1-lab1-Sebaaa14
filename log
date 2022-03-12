@@ -877,3 +877,17 @@ Sat Mar 12 05:45:07 UTC 2022:
  tests:  4|3
 total_score: 40/70
 0d595b4
+Sat Mar 12 05:45:42 UTC 2022: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:31: error: unknown conversion type character ‘\x0a’ in format [-Werror=format=]
+   printf("EL VALOR DE I ES %I \n",i);
+                               ^~
+exercises.c:99:10: error: too many arguments for format [-Werror=format-extra-args]
+   printf("EL VALOR DE I ES %I \n",i);
+          ^~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+bf42ef9
