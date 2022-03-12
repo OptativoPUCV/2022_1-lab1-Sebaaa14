@@ -1352,3 +1352,9 @@ exercises.c:103:1: error: expected identifier or ‘(’ before ‘}’ token
  ^
 Compilation failed
 e5dc6cf
+Sat Mar 12 14:57:14 UTC 2022: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  4|3
+total_score: 40/70
+774dabe
