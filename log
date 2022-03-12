@@ -609,3 +609,13 @@ exercises.c:100:5: error: invalid type argument of unary ‘*’ (have ‘Vector
      ^~~~~
 Compilation failed
 70bb931
+Sat Mar 12 05:28:08 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:100:9: error: incompatible types when assigning to type ‘Vector {aka struct <anonymous>}’ from type ‘int’
+     v[i]=valor;
+         ^
+Compilation failed
+ecafe8b
