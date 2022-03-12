@@ -99,7 +99,7 @@ void asignarValor(Vector * v, int i, int valor) {
   printf("EL VALOR DE I ES %i\n",i);
     printf("EL VALOR DE VALOR ES %i\n",valor);
   for (int j=0 ; j<i ; j++){
-    v->datos[j]=valor;
+    v->datos[i]=valor;
   }
 }
 
