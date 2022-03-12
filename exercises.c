@@ -92,8 +92,8 @@ Vector * crearVector(int n) {
   
   Vector *arreglo =NULL;
   arreglo = (Vector *) malloc (n*sizeof(Vector));
-  v->datos=arreglo;
-  v->capacidad=n;
+  arreglo->datos=arreglo;
+  arreglo->capacidad=n;
   return arreglo;
 }
 
