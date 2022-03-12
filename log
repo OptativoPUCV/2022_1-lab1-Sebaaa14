@@ -1707,3 +1707,14 @@ Sat Mar 12 17:53:50 UTC 2022:
  tests:  3|4
 total_score: 30/70
 d3bac69
+Sat Mar 12 17:54:56 UTC 2022: 
+ exercises.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:95:3: error: ‘v’ undeclared (first use in this function)
+   v->datos=arreglo;
+   ^
+exercises.c:95:3: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+254f40d
