@@ -504,3 +504,14 @@ exercises.c:66:12: error: ‘p’ is a pointer; did you mean to use ‘->’?
             ->
 Compilation failed
 1ba62cc
+Sat Mar 12 05:08:03 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearPersona’:
+exercises.c:66:4: error: ‘p’ is a pointer; did you mean to use ‘->’?
+   p.edad = 38;
+    ^
+    ->
+Compilation failed
+7475908
