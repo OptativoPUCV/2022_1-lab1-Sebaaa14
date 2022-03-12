@@ -96,10 +96,7 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) {
-  int *arreglo;
-  arreglo = (int *) malloc (i*sizeof(int));
-  v->datos=arreglo;
-  v->datos[i]=valor;
+  v[i].datos=valor;
 }
 
 /*
@@ -108,9 +105,7 @@ Programe la función int obtenerValor(Vector * v, int i),
 la cual retorna el valor en la posición i del vector v.
 */
 int obtenerValor(Vector * v, int i) {
-    printf(".i....\n");
 
-  printf("%d",v->datos[i]);
    return 0;
 }
 

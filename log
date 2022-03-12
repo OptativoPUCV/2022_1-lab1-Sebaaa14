@@ -1153,3 +1153,14 @@ Sat Mar 12 14:45:20 UTC 2022:
  tests:  4|3
 total_score: 40/70
 e2cc16f
+Sat Mar 12 14:49:50 UTC 2022: 
+ exercises.c | 7 +------
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:13: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+   v[i].datos=valor;
+             ^
+cc1: all warnings being treated as errors
+Compilation failed
+b62d0a0
