@@ -844,3 +844,13 @@ In file included from test.c:3:0:
 cc1: all warnings being treated as errors
 Compilation failed
 3327320
+Sat Mar 12 05:43:42 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:100:9: error: invalid type argument of ‘->’ (have ‘Vector {aka struct <anonymous>}’)
+     v[j]->datos=valor;
+         ^~
+Compilation failed
+600c5f3
