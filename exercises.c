@@ -45,7 +45,6 @@ void sumaNultimos(int a[], int n, int m, int * suma) {
       }
     }
   } 
-}
 
 /*
 Ejercicio 3.
