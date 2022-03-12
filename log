@@ -90,3 +90,13 @@ exercises.c:39:20: error: expected ‘;’ before ‘)’ token
                     ^
 Compilation failed
 ecdfec1
+Sat Mar 12 04:18:37 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaNultimos’:
+exercises.c:39:20: error: expected ‘;’ before ‘)’ token
+   for(int i =0; i<n){
+                    ^
+Compilation failed
+78d0049
