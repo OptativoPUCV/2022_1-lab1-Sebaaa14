@@ -97,7 +97,7 @@ la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) {
   for (int j=0 ; j<i ; j++){
-    arreglo[j]=valor;
+    *arreglo[j]=valor;
   }
 }
 
