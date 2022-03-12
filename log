@@ -1841,3 +1841,18 @@ Sat Mar 12 20:39:41 UTC 2022:
  tests:  4|3
 total_score: 40/70
 abf007a
+Sat Mar 12 20:39:58 UTC 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:97:33: error: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘int *’ [-Werror=format=]
+   printf("EL VALOR DE DATOS ES %d \n",v->datos);
+                                ~^     ~~~~~~~~
+                                %ls
+exercises.c:98:11: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+   v->datos=valor;
+           ^
+cc1: all warnings being treated as errors
+Compilation failed
+08f342c
