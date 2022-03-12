@@ -1503,3 +1503,19 @@ exercises.c:100:14: error: assignment makes integer from pointer without a cast 
 cc1: all warnings being treated as errors
 Compilation failed
 9071ec3
+Sat Mar 12 15:05:23 UTC 2022: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:100:11: error: ‘vector’ undeclared (first use in this function); did you mean ‘Vector’?
+   arreglo=vector;
+           ^~~~~~
+           Vector
+exercises.c:100:11: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:101:14: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+   v->datos[i]=arreglo;
+              ^
+cc1: all warnings being treated as errors
+Compilation failed
+4df9425
