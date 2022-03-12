@@ -582,3 +582,14 @@ Sat Mar 12 05:18:05 UTC 2022:
  1 file changed, 3 insertions(+), 7 deletions(-)
  tests:  0|0
 b9045b5
+Sat Mar 12 05:19:20 UTC 2022: 
+ exercises.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:87:13: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+     v->datos=a[n];
+             ^
+cc1: all warnings being treated as errors
+Compilation failed
+803b50c
