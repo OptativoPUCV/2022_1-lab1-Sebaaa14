@@ -1573,3 +1573,14 @@ exercises.c:99:12: error: unused variable ‘v’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 fb4906d
+Sat Mar 12 17:32:50 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:12: error: unused variable ‘h’ [-Werror=unused-variable]
+    Vector *h[5];
+            ^
+cc1: all warnings being treated as errors
+Compilation failed
+283b900
