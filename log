@@ -1467,3 +1467,14 @@ Sat Mar 12 15:03:49 UTC 2022:
  tests:  4|3
 total_score: 40/70
 c6df0b3
+Sat Mar 12 15:04:53 UTC 2022: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:3: error: ‘arreglo’ undeclared (first use in this function)
+   arreglo=valor;
+   ^~~~~~~
+exercises.c:99:3: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+3474dd6
