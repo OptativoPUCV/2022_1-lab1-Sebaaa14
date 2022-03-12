@@ -1868,3 +1868,15 @@ Sat Mar 12 20:43:08 UTC 2022:
  tests:  4|3
 total_score: 40/70
 521fae8
+Sat Mar 12 20:43:18 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:97:39: error: ‘v1’ undeclared (first use in this function); did you mean ‘v’?
+   printf("EL VALOR DE DATOS ES %d \n",v1->datos[i]);
+                                       ^~
+                                       v
+exercises.c:97:39: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+c4bd2b4
