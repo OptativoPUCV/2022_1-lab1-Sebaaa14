@@ -537,3 +537,15 @@ Sat Mar 12 05:09:07 UTC 2022:
  tests:  3|4
 total_score: 30/70
 5700e34
+Sat Mar 12 05:15:49 UTC 2022: 
+ exercises.c | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:91:11: error: return from incompatible pointer type [-Werror=incompatible-pointer-types]
+    return v;
+           ^
+exercises.c:91:11: error: function returns address of local variable [-Werror=return-local-addr]
+cc1: all warnings being treated as errors
+Compilation failed
+d986008
