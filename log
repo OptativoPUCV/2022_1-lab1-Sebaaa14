@@ -2162,3 +2162,17 @@ exercises.c:115:12: error: ‘i’ undeclared (first use in this function)
 exercises.c:115:12: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 df2400f
+Sat Mar 12 20:59:16 UTC 2022: 
+ exercises.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function ‘sumaV’:
+exercises.c:115:9: error: statement with no effect [-Werror=unused-value]
+   int i;0
+         ^
+exercises.c:116:3: error: expected ‘;’ before ‘a’
+   a->datos[i]=b->datos[i]+c->datos[i];
+   ^
+cc1: all warnings being treated as errors
+Compilation failed
+e9fddf5
