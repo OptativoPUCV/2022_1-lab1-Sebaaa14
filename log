@@ -646,3 +646,13 @@ exercises.c:98:6: note: declared here
 cc1: all warnings being treated as errors
 Compilation failed
 0f1b99a
+Sat Mar 12 05:29:04 UTC 2022: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:100:9: error: incompatible types when assigning to type ‘Vector {aka struct <anonymous>}’ from type ‘int’
+     v[j]=valor;
+         ^
+Compilation failed
+e850e53
