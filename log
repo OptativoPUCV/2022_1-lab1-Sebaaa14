@@ -1440,3 +1440,14 @@ Sat Mar 12 15:01:02 UTC 2022:
  tests:  4|3
 total_score: 40/70
 9d882c5
+Sat Mar 12 15:03:08 UTC 2022: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:11: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Werror=format=]
+   scanf("%d",v->datos[i]);
+          ~^  ~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+734ed03
