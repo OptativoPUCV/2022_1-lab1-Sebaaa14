@@ -1451,3 +1451,13 @@ exercises.c:99:11: error: format ‘%d’ expects argument of type ‘int *’, 
 cc1: all warnings being treated as errors
 Compilation failed
 734ed03
+Sat Mar 12 15:03:33 UTC 2022: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:4: error: ‘Vector {aka struct <anonymous>}’ has no member named ‘arreglo’
+   v->arreglo[i]=valor;
+    ^~
+Compilation failed
+b70e6f0
