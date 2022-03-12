@@ -1006,3 +1006,15 @@ Sat Mar 12 05:50:59 UTC 2022:
  tests:  4|3
 total_score: 40/70
 9845973
+Sat Mar 12 05:55:38 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:8: error: ‘datos’ undeclared (first use in this function); did you mean ‘acos’?
+   v[i]>datos=valor;
+        ^~~~~
+        acos
+exercises.c:99:8: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+0651f1f
