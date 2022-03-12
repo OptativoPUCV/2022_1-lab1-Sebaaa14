@@ -428,3 +428,13 @@ exercises.c:66:13: error: ‘p’ is a pointer; did you mean to use ‘->’?
              ->
 Compilation failed
 712e581
+Sat Mar 12 05:01:15 UTC 2022: 
+ exercises.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearPersona’:
+exercises.c:64:12: error: assignment to expression with array type
+   p->nombre= "Ignacio";
+            ^
+Compilation failed
+dd560b1
