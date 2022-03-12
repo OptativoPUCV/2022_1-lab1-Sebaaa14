@@ -82,10 +82,10 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-  //int *arreglo;
-  //arreglo = (int *) malloc (n*sizeof(int));
+  int *arreglo;
+  arreglo = (int *) malloc (n*sizeof(int));
   Vector *v = (Vector*) malloc (sizeof(Vector));
-    //v->datos=arreglo;
+    v->datos=arreglo;
     v->capacidad=n;
    return v;
 }
