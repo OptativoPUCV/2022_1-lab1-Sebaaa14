@@ -99,6 +99,7 @@ void asignarValor(Vector * v, int i, int valor) {
   v1->datos = (int *)calloc(3, sizeof(int));
   v1->capacidad = 3;
   v1->datos[i]=valor; v1->datos[i]=valor; v1->datos[i]=valor;
+  printf("DATOS ES %d \n ",v1->datos[i]);
 
 }
 
@@ -108,7 +109,6 @@ Programe la función int obtenerValor(Vector * v, int i),
 la cual retorna el valor en la posición i del vector v.
 */
 int obtenerValor(Vector * v, int i) {
-
    return 0;
 }
 
