@@ -99,7 +99,7 @@ void asignarValor(Vector * v, int i, int valor) {
   Vector Arreglo[3], *P;
   Arreglo[i].datos=valor;
   P=Arreglo;
-  (P+i)->ruedas =valor;
+  (P+i+1)->ruedas =valor;
 }
 
 /*
