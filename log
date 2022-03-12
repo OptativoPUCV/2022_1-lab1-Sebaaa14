@@ -1080,3 +1080,16 @@ Sat Mar 12 06:00:41 UTC 2022:
  tests:  4|3
 total_score: 40/70
 2e9cb67
+Sat Mar 12 14:42:02 UTC 2022: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:11: error: ‘v’ redeclared as different kind of symbol
+   Vector *v = (Vector*) malloc (sizeof(Vector));
+           ^
+exercises.c:98:28: note: previous definition of ‘v’ was here
+ void asignarValor(Vector * v, int i, int valor) {
+                            ^
+Compilation failed
+36bf30f
