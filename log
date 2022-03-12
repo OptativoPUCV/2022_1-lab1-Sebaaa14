@@ -1519,3 +1519,17 @@ exercises.c:101:14: error: assignment makes integer from pointer without a cast 
 cc1: all warnings being treated as errors
 Compilation failed
 4df9425
+Sat Mar 12 15:05:35 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:100:10: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+   arreglo=valor;
+          ^
+exercises.c:101:14: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+   v->datos[i]=arreglo;
+              ^
+cc1: all warnings being treated as errors
+Compilation failed
+acaa984
