@@ -1687,3 +1687,17 @@ exercises.c:102:10: error: ‘Vector {aka struct <anonymous>}’ has no member n
 cc1: all warnings being treated as errors
 Compilation failed
 8b4c59b
+Sat Mar 12 17:53:43 UTC 2022: 
+ exercises.c | 11 ++++++++---
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:105:19: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+   Arreglo[i].datos=valor;
+                   ^
+exercises.c:107:8: error: ‘Vector {aka struct <anonymous>}’ has no member named ‘ruedas’
+   (P+i)->ruedas =valor;
+        ^~
+cc1: all warnings being treated as errors
+Compilation failed
+8cb8a66

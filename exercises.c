@@ -82,12 +82,17 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-  int *arreglo;
+  /*int *arreglo;
   arreglo = (int *) malloc (n*sizeof(int));
   Vector *v = (Vector*) malloc (sizeof(Vector));
     v->datos=arreglo;
     v->capacidad=n;
-   return v;
+   return v;*/
+
+  
+  Vector *arreglo =NULL;
+  arreglo = (Vector *) malloc (n*sizeof(Vector));
+  return arreglo;
 }
 
 /*
@@ -99,7 +104,7 @@ void asignarValor(Vector * v, int i, int valor) {
   Vector Arreglo[3], *P;
   Arreglo[i].datos=valor;
   P=Arreglo;
-  (P+i+1)->ruedas =valor;
+  (P+i)->ruedas =valor;
 }
 
 /*
