@@ -1238,3 +1238,21 @@ In file included from test.c:3:0:
 cc1: all warnings being treated as errors
 Compilation failed
 ffee0e3
+Sat Mar 12 14:53:24 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:100:14: error: invalid type argument of ‘->’ (have ‘Vector {aka struct <anonymous>}’)
+   strcpy(v[i]->datos,valor);
+              ^~
+exercises.c:100:22: error: passing argument 2 of ‘strcpy’ makes pointer from integer without a cast [-Werror=int-conversion]
+   strcpy(v[i]->datos,valor);
+                      ^~~~~
+In file included from test.c:3:0:
+/usr/include/string.h:121:14: note: expected ‘const char * restrict’ but argument is of type ‘int’
+ extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+              ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+189f2c2
