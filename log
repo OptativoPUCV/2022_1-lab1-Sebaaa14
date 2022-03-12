@@ -983,3 +983,14 @@ exercises.c:99:3: error: ‘datos’ undeclared (first use in this function); di
 exercises.c:99:3: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 2961682
+Sat Mar 12 05:49:20 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:4: error: ‘v’ is a pointer; did you mean to use ‘->’?
+   v.datos[i]=valor;
+    ^
+    ->
+Compilation failed
+f47ad24
