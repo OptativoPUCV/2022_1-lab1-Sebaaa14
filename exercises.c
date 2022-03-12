@@ -94,12 +94,7 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) { 
- 
-  //v->datos = (int *)calloc(3, sizeof(int));
-  //v->capacidad = 3;
   v->datos[i]=valor;
-  //printf("DATOS ES %d XDD\n ",v->datos[i]);
-
 }
 
 /*
