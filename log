@@ -257,3 +257,14 @@ Sat Mar 12 04:49:12 UTC 2022:
  tests:  2|5
 total_score: 20/70
 e920f69
+Sat Mar 12 04:50:11 UTC 2022: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearPersona’:
+exercises.c:66:12: error: ‘p’ is a pointer; did you mean to use ‘->’?
+   strcpy (p.edad,"38");
+            ^
+            ->
+Compilation failed
+da53d9f
