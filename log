@@ -971,3 +971,15 @@ exercises.c:99:7: error: incompatible types when assigning to type ‘Vector {ak
        ^
 Compilation failed
 a4d1d69
+Sat Mar 12 05:49:12 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:3: error: ‘datos’ undeclared (first use in this function); did you mean ‘acos’?
+   datos[i]=valor;
+   ^~~~~
+   acos
+exercises.c:99:3: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+2961682
