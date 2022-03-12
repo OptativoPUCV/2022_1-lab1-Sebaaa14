@@ -165,3 +165,14 @@ Sat Mar 12 04:24:31 UTC 2022:
  tests:  1|6
 total_score: 10/70
 3efecdf
+Sat Mar 12 04:26:53 UTC 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+test.c: In function ‘sumaNultimos’:
+exercises.c:41:10: error: ‘j’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+     while(j<=m){
+          ^
+cc1: all warnings being treated as errors
+Compilation failed
+ea59ee1
