@@ -1098,3 +1098,17 @@ Sat Mar 12 14:42:15 UTC 2022:
  1 file changed, 2 insertions(+), 2 deletions(-)
  tests:  0|0
 2e1b878
+Sat Mar 12 14:43:38 UTC 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:21: error: ‘n’ undeclared (first use in this function)
+   v= (int*) malloc (n*sizeof(int));
+                     ^
+exercises.c:99:21: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:100:7: error: invalid type argument of ‘->’ (have ‘Vector {aka struct <anonymous>}’)
+   v[i]->datos=valor;
+       ^~
+Compilation failed
+642f785
