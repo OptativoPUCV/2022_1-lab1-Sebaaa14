@@ -95,7 +95,7 @@ la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) { 
   printf("EL VALOR DE DATOS ES %d \n",v->datos[i]);
-  v[i]->datos=valor;
+  v->datos=valor;
 }
 
 /*

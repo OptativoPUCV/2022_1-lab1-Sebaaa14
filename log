@@ -1824,3 +1824,14 @@ exercises.c:98:7: error: invalid type argument of ‘->’ (have ‘Vector {aka 
        ^~
 Compilation failed
 442d012
+Sat Mar 12 20:39:33 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:98:11: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+   v->datos=valor;
+           ^
+cc1: all warnings being treated as errors
+Compilation failed
+be9797d
