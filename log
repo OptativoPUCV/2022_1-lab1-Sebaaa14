@@ -1751,3 +1751,14 @@ Sat Mar 12 18:03:21 UTC 2022:
  tests:  4|3
 total_score: 40/70
 935d743
+Sat Mar 12 18:06:20 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:85:8: error: variable ‘arreglo’ set but not used [-Werror=unused-but-set-variable]
+   int *arreglo;
+        ^~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+77b7139
