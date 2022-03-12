@@ -1701,3 +1701,9 @@ exercises.c:107:8: error: ‘Vector {aka struct <anonymous>}’ has no member na
 cc1: all warnings being treated as errors
 Compilation failed
 8cb8a66
+Sat Mar 12 17:53:50 UTC 2022: 
+ exercises.c | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+ tests:  3|4
+total_score: 30/70
+d3bac69

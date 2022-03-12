@@ -101,10 +101,7 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) { 
-  Vector Arreglo[3], *P;
-  Arreglo[i].datos=valor;
-  P=Arreglo;
-  (P+i)->ruedas =valor;
+
 }
 
 /*
