@@ -95,7 +95,11 @@ la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) { 
   printf("EL VALOR DE DATOS ES %d \n",v->datos[i]);
-  v->datos[i]=valor;
+  Vector *v1 = (Vector* )malloc (sizeof(Vector));
+  v1->datos = (int *)calloc(3, sizeof(int));
+  v1->capacidad = 3;
+  v1->datos[i]=valor; v1->datos[i]=valor; v1->datos[i]=valor;
+
 }
 
 /*
