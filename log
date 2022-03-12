@@ -1489,3 +1489,17 @@ exercises.c:99:4: error: ‘arreglo’ undeclared (first use in this function)
 exercises.c:99:4: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 e0df548
+Sat Mar 12 15:05:05 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘asignarValor’:
+exercises.c:99:16: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+   int *arreglo=valor;
+                ^~~~~
+exercises.c:100:14: error: assignment makes integer from pointer without a cast [-Werror=int-conversion]
+   v->datos[i]=arreglo;
+              ^
+cc1: all warnings being treated as errors
+Compilation failed
+9071ec3
