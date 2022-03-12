@@ -1735,3 +1735,13 @@ Sat Mar 12 17:56:32 UTC 2022:
  tests:  4|3
 total_score: 40/70
 ec05ae4
+Sat Mar 12 18:03:16 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearVector’:
+exercises.c:88:14: error: expected expression before ‘]’ token
+     v->datos[]=arreglo;
+              ^
+Compilation failed
+a43972f
