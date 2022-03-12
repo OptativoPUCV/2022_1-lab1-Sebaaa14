@@ -99,7 +99,6 @@ void asignarValor(Vector * v, int i, int valor) {
   v1->datos = (int *)calloc(3, sizeof(int));
   v1->capacidad = 3;
   v1->datos[i]=valor; v1->datos[i]=valor; v1->datos[i]=valor;
-  return v1;
 
 }
 

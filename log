@@ -1918,3 +1918,9 @@ exercises.c:96:6: note: declared here
 cc1: all warnings being treated as errors
 Compilation failed
 275a280
+Sat Mar 12 20:44:59 UTC 2022: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  4|3
+total_score: 40/70
+62ba9da
