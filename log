@@ -515,3 +515,9 @@ exercises.c:66:4: error: ‘p’ is a pointer; did you mean to use ‘->’?
     ->
 Compilation failed
 7475908
+Sat Mar 12 05:08:12 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+8c94787
