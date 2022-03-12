@@ -391,3 +391,14 @@ In file included from test.c:3:0:
 cc1: all warnings being treated as errors
 Compilation failed
 340d434
+Sat Mar 12 04:57:54 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearPersona’:
+exercises.c:66:12: error: ‘p’ is a pointer; did you mean to use ‘->’?
+   strcpy (p.edad,"38");
+            ^
+            ->
+Compilation failed
+d2efe60
