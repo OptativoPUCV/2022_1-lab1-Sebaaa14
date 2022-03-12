@@ -1636,3 +1636,9 @@ exercises.c:100:3: error: ‘datos’ undeclared (first use in this function); d
 exercises.c:100:3: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 2606fbf
+Sat Mar 12 17:42:04 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|3
+total_score: 40/70
+37e3766
