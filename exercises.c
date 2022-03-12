@@ -96,7 +96,10 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) {
-  v[i].datos=valor;
+  int *arreglo;
+  arreglo = (int *) malloc (i*sizeof(int));
+  v->datos=arreglo;
+  v->datos[i]=valor;
 }
 
 /*
