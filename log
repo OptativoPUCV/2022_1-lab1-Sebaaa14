@@ -2176,3 +2176,9 @@ exercises.c:116:3: error: expected ‘;’ before ‘a’
 cc1: all warnings being treated as errors
 Compilation failed
 e9fddf5
+Sat Mar 12 20:59:26 UTC 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|2
+total_score: 50/70
+8020485
