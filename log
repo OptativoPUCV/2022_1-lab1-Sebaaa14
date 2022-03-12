@@ -577,3 +577,8 @@ exercises.c:91:12: error: return makes pointer from integer without a cast [-Wer
 cc1: all warnings being treated as errors
 Compilation failed
 6fee91c
+Sat Mar 12 05:18:05 UTC 2022: 
+ exercises.c | 10 +++-------
+ 1 file changed, 3 insertions(+), 7 deletions(-)
+ tests:  0|0
+b9045b5
