@@ -88,7 +88,7 @@ Vector * crearVector(int n) {
       
       
     }*/
-   return v[];
+   return v[n];
 }
 
 /*
