@@ -521,3 +521,13 @@ Sat Mar 12 05:08:12 UTC 2022:
  tests:  3|4
 total_score: 30/70
 8c94787
+Sat Mar 12 05:08:57 UTC 2022: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function ‘crearPersona’:
+exercises.c:64:13: error: assignment to expression with array type
+   p->nombre = "Ignacio";
+             ^
+Compilation failed
+034812f
