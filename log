@@ -2206,3 +2206,9 @@ Sat Mar 12 21:01:22 UTC 2022:
  tests:  6|2
 total_score: 50/70
 aac734d
+Sat Mar 12 21:01:53 UTC 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  7|1
+total_score: 60/70
+0978c82
